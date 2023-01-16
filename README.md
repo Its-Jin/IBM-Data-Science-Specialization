@@ -1,5 +1,5 @@
 # IBM-Data-Science-Specialization
-<img scr="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" width=150>
+<img src="https://www.freepnglogos.com/uploads/ibm-logo-png/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" width=150>
 
 This is a repo of all my notes, assignments, study materials for the Data Science Specialization from IBM 
 
