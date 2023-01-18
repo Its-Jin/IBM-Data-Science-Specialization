@@ -43,6 +43,7 @@ Digital Transformations are not simple in any aspect. It impacts the foundations
 
 
 # Methods in Data Mining 
+Data Mining is the process of search and analysing data and discovering previouslt unrevealed patterns.
 ### Defining Goals
 As with data analysis, data mining needs:
 - an established goal (ie questions that need answered)
