@@ -11,3 +11,7 @@
 | Seaborn | Built ontop of Matplotlib for simplied visualization creation |
 | Folium | Mainly use for visualization of geospatial plots |
 | Panada | Python library for data manipulation and analysis | 
+
+# Interesting Organizations
+[Darkhorse Analytics](https://www.darkhorseanalytics.com/)
+
