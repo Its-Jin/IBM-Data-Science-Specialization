@@ -12,6 +12,11 @@
 | Folium | Mainly use for visualization of geospatial plots |
 | Panada | Python library for data manipulation and analysis | 
 
-# Interesting Organizations
-[Darkhorse Analytics](https://www.darkhorseanalytics.com/)
+# Interesting Organizations / Communities 
+- [Darkhorse Analytics](https://www.darkhorseanalytics.com/)
+- [Women in Data Science](https://www.widsconference.org/)
+- [Kaggle](https://www.kaggle.com/)
+- [PyLadies]
 
+# Interesting Deliverables 
+- [United States Economic Forecast by Deloitte](https://www2.deloitte.com/us/en/insights/economy/us-economic-forecast.html)

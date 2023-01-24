@@ -8,7 +8,8 @@ This is a repo of all my notes, assignments, study materials for the Data Scienc
     * Week 1: [Defining Data Science](https://github.com/Its-Jin/IBM-Data-Science-Specialization/tree/main/Week%201%20-%20Defining%20Data%20Science)
     * Week 2: [Topics in Data Science](https://github.com/Its-Jin/IBM-Data-Science-Specialization/tree/main/Week%202%20-%20Data%20Science%20Topics)
     * Week 3: [Data Science in Business]
-- [Course 2: Data Visualisation]
+- [Course 2: Tools for Data Science]
+    * Week 1: [Introduction] 
 - [Appendix: Additional Information and Resources]
     * Data Sources
     * Data Science Softwares

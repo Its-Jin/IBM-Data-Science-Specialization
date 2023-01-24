@@ -32,4 +32,4 @@
     * Lab: Creating Maps and Visualizing Geospatial Data
     * Quiz: Advanced Visualization Tools
     * Quiz: Visualizing Geospatial Data
-    * Peer-review Assignment
+    * Peer-review Assignments
