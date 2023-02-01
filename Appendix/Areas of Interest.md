@@ -17,6 +17,9 @@
 - [Women in Data Science](https://www.widsconference.org/)
 - [Kaggle](https://www.kaggle.com/)
 - [PyLadies]
+- [WhyR]
+- [SatRdays]
+- [R-Ladies]
 
 # Interesting Deliverables 
 - [United States Economic Forecast by Deloitte](https://www2.deloitte.com/us/en/insights/economy/us-economic-forecast.html)
