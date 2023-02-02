@@ -1,1 +1,1 @@
-![](Appendix/Images/MindMap of Common Tools in Data Science.jpeg)
+![Image](/Appendix/Images/MindMap%20of%20Common%20Tools%20in%20Data%20Science.jpeg)
