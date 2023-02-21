@@ -3,6 +3,7 @@
 | Name | Features | 
 |------|---------|
 | [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio#about) | Speed AI ddecelopment, Optimize decisions, visual model development |
+- [Model Asset Exchange]
 
 
 | Name | Purpose |

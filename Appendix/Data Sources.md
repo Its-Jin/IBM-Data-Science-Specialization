@@ -1,3 +1,10 @@
 # List of Data Sources
 - [Inside Airbnb](http://insideairbnb.com/)
 - [Chicago Data Portal](https://data.cityofchicago.org/)
+- [Data Catalog](https://datacatalogs.org/portal/datacatalogs-org)
+- [United Nations](https://data.un.org/)
+- [USA Data](https://data.gov/)
+- [Europe Data Portal](https://data.europa.eu/en)
+- [Kaggle](https://www.kaggle.com/datasets)
+- [Google Data Sets](https://datasetsearch.research.google.com/)
+- [IBM Data Asset Exchange](https://developer.ibm.com/exchanges/data/)
