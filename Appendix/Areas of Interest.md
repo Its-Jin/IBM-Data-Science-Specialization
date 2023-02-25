@@ -1,10 +1,8 @@
 # Tools for Data Science 
-### IBM
-| Name | Features | 
-|------|---------|
-| [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio#about) | Speed AI ddecelopment, Optimize decisions, visual model development |
+- [Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio#about): For Speed AI development, Optimize decisions, visual model development 
 - [Model Asset Exchange]
-
+- [Machine Learning Model exchange](http://ml-exchange.org/models/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkDS0105ENSkillsNetwork984-2022-01-01)
+- [CodePen](https://codepen.io/): Online code editor 
 
 | Name | Purpose |
 |------|---------|

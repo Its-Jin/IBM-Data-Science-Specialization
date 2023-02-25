@@ -8,9 +8,13 @@
 - [What is a REST API - IBM Tech](https://www.youtube.com/watch?v=lsMQRaeKNDk&t=18s)
 
 # Data Sets
+![700](/Appendix/Images/Data%20Set.jpg)
 [Structured Vs Unstructured Data](https://www.ibm.com/cloud/blog/structured-vs-unstructured-dat
 
 # Machine learning Models 
+![700](/Appendix/Images/Machine%20Learning.jpg)
+
+
 ### MicroServices
 [What is Microservices](https://www.youtube.com/watch?v=j1gU2oGFayY)
 
