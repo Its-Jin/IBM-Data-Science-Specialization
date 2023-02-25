@@ -11,7 +11,7 @@ R Capabilities:
 The **Integrated Development Environment(IDE)** to run R codes. 
 
 Figure 2.2.2.1: R Studio user interface
-[300](https://datascienceplus.com/wp-content/uploads/2019/02/r-studio.png)
+![300](https://datascienceplus.com/wp-content/uploads/2019/02/r-studio.png)
 
 # Popular R Libraries
 | Library | Purpose |
