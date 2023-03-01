@@ -1,6 +1,6 @@
 # Introduction to Jupyter
 Figure 2.2.1.1: A concept map of Jupyter and its relation to Jupyter Lab
-[700](/Appendix/Images/Intro%20to%20Jupyter.jpg)
+![700](/Appendix/Images/Intro%20to%20Jupyter.jpg)
 
 
 # Jupyter Kernel 

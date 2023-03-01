@@ -1,0 +1,176 @@
+---
+title: "IBM Data Science Skills Network: R and RStudio "
+output: html_notebook
+---
+
+# Lab 1:Creating Data Visualizations using ggplot
+
+### Objective
+
+-   Create different data visualizations using the ggplot package with inbuilt data set mtcars.
+
+##### 
+
+## Loading Data Set
+
+```{r}
+library(datasets)
+data("mtcars")
+View(mtcars)
+```
+
+##### 
+
+### Getting more info about the data set 'mtcars'
+
+```{r}
+?mtcars
+```
+
+##### 
+
+### Installing ggplot2
+
+```{r}
+# Installing package 'ggplot2'
+install.packages("ggplot2")
+
+# Loading ggplot package
+library(ggplot2)
+```
+
+##### 
+
+## Plotting
+
+```{r}
+ggplot(aes(x=disp,y=mpg,), data=mtcars)+
+  geom_point()+ #value is represented by a point
+  ggtitle("Figure 1.1: Displacement vs miles per gallon")
+```
+
+### 
+
+### Stylizing the plots
+
+```{r}
+# creates a plot named 'p'
+p <- ggplot(mtcars, aes(x=disp, y=mpg))+
+  geom_point()+
+  ggtitle("Figure 1.2: Displacement vs Miles per gallon")+
+  labs(x="Displacement", y="Miles per gallon")
+
+# Modification of the plot's visual theme with the theme function.
+p + theme(plot.title = element_text(size=14)) # the addition component adds the modified plot back to the ggplot object named 'p
+```
+
+### Changing axis name of plots
+
+```{r}
+ggplot(aes(x=disp,y=mpg,), data=mtcars)+
+  geom_point()+ #value is represented by a point
+  ggtitle("Figure 1.3: Displacement vs miles per gallon")+
+  labs(x="Displacement", y="Miles per gallon") #Change in axis name 
+
+```
+
+##### 
+
+### Creating a box plot of the distribution of mile per gallon (mpg) for the individual engine types (vs)
+
+```{r}
+mtcars$vs <- as.numeric(mtcars$vs)
+ggplot(mtcars, aes(x=vs, y=mpg))+ 
+  geom_boxplot()+
+  ggtitle("Figure 1.4: An example boxplot of the distribution of mile per gallon against enegine types")
+       
+```
+
+The above box plot function only generated 1 box plot which includes both engine types. Why is that? and Why it may not be suitable?
+
+-   The question asked for separate box plots for each engine type.
+-   The variable 'VS' is not continuous, it is binary categorical.
+
+To fix this, change the binary categorical data to factor or string.
+
+Instances where data type conversion is needed:
+
+-   Grouping: Where different box plot is needed for each group in a categorical variable. In this case a factor / string needs to represent the groupings
+
+-   Labels: When the x-axis label is numerical but text labels are prefered.
+
+-   Ordering: If the order of the boxes in the plot needs to be change to meet some criterion other than numerical values
+
+### Using factors to create box plots
+
+```{r}
+# factor the values of the variable 'vs' in the dataset 'mtcars', take the result and replace the existing data in the variable 'vs' in the dataset 'mtcars'
+mtcars$vs<-as.factor(mtcars$vs) 
+```
+
+```{r}
+p <- ggplot(mtcars, aes(x=vs,y=mpg))+
+  geom_boxplot()+
+  ggtitle("Figure 1.5: An example boxplot of the distribution of mile per gallon against engine types")
+
+p + theme(plot.margin = unit(c(1, 1, 1.5, 1), "lines"), 
+          #adjust margin of plots with unit (top,right,bottom,left)
+          
+          plot.title.position = "plot", 
+          #position = plot ensures that the title is positioned within the plot area
+          
+          plot.title = element_text(hjust = 0.5, size = 12), 
+          #hjust is horizontal alignment
+          
+          plot.background = element_rect(fill = "white"))
+```
+
+This box plot seems more accurate than the previous one.
+
+### Changing colours in a plot
+
+```{r}
+p <- ggplot(mtcars, aes(x=vs,y=mpg))+
+  geom_boxplot(color = 'blue') +
+  ggtitle("Figure 1.6: An example boxplot of the distribution of mile per gallon against engine types")
+
+p + theme(plot.margin = unit(c(1, 1, 1.5, 1), "lines"), 
+          #adjust margin of plots with unit (top,right,bottom,left)
+          plot.title.position = "plot", 
+          #position = plot ensures that the title is positioned within the plot area
+          
+          plot.title = element_text(hjust = 0.5, size = 12), 
+          #hjust is horizontal alignment
+          
+          plot.background = element_rect(fill = "white"))
+```
+
+```{r}
+# Assigning colur based on grouping within a boxplot
+
+p <- ggplot(mtcars, aes(x=vs,y=mpg, fill=vs))+
+  geom_boxplot() +
+  ggtitle(
+    "Figure 1.7: An example boxplot of the distribution of mile per gallon against engine types")+
+  scale_fill_manual(values = c("#2b303b", "#aeb6bf"))
+
+
+p + theme(plot.margin = unit(c(1, 1, 1.5, 1), "lines"), 
+          #adjust margin of plots with unit (top,right,bottom,left)
+          plot.title.position = "plot", 
+          #position = plot ensures that the title is positioned within the plot area
+          
+          plot.title = element_text(hjust = 0.5, size = 12), 
+          #hjust is horizontal alignment
+          
+          plot.background = element_rect(fill = "white"))
+
+```
+
+## Creating Histogram
+
+```{r}
+ggplot(mtcars, aes(x=wt))+
+  geom_histogram(binwidth = 0.5)+
+  ggtitle("Figure 1.8: A histogram of the weight of cars")
+```

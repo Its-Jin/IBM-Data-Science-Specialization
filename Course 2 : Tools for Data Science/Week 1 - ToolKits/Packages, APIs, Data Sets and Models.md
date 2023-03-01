@@ -9,7 +9,8 @@
 
 # Data Sets
 ![700](/Appendix/Images/Data%20Set.jpg)
-[Structured Vs Unstructured Data](https://www.ibm.com/cloud/blog/structured-vs-unstructured-dat
+
+[Structured Vs Unstructured Data](https://www.ibm.com/cloud/blog/structured-vs-unstructured-data
 
 # Machine learning Models 
 ![700](/Appendix/Images/Machine%20Learning.jpg)
