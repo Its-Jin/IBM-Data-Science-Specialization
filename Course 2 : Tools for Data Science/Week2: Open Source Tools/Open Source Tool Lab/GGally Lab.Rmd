@@ -1,0 +1,38 @@
+---
+title: "IBM Data Science Skills Network: R and RStudio: GGally"
+output: html_notebook
+---
+
+# Lab 2 : Introduction to GGally
+
+### Objective
+
+-   Plotting in R with ggplot and GGally
+
+##### 
+
+## Loading data set
+
+```{r}
+library(datasets)
+data(iris)
+View(iris)
+```
+
+### 
+
+## Calling for appropriate libraries
+
+```{r}
+library(GGally)
+```
+
+```{r}
+ggpairs(iris, mapping=ggplot2::aes(colour = Species))
+```
+
+### 
+
+# Additional Resources
+
+[Complete Documentation to GGally](https://www.rdocumentation.org/packages/GGally/versions/1.5.0)
