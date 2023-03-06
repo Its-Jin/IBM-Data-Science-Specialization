@@ -39,8 +39,7 @@ Figure: Comon geom objects
 
 <br> 
 
----
-<br>
+
 
 ## **Theme ( ) function**
 Purpose: Controls the display of non data elements of the plot
@@ -60,9 +59,6 @@ The theme ( ) function have numerous arguements and will not be display here. Bu
 A part of the theme ( ) function is the element module. 
  <br>
 
- ---
-
-<br>
 
 ## **Element Module**
 The most common element module includes:
